@@ -9,7 +9,7 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Title</h1>
+    <h1>Menu</h1>
     <p>Select a tab to view its contents.</p>
 
     <div id="Apps" class="tab-content">
@@ -19,24 +19,24 @@
 
     <div id="Entree" class="tab-content">
       <h3 class="tab-title">Entrees</h3>
-      <p class="tab-blurb">Small bites and appetizers to wet your appetite.</p>
+      <p class="tab-blurb"><strong>Hearty portions expertly crafted</strong></p>
     </div>
 
     <div id="Dessert" class="tab-content">
       <h3 class="tab-title">Desserts</h3>
-      <p class="tab-blurb">Small bites and appetizers to wet your appetite.</p>
+      <p class="tab-blurb"><strong>Sweet finishes to a meal to remember</strong></p>
     </div>
 
     <div id="Bev" class="tab-content">
       <h3 class="tab-title">Beverages</h3>
-      <p class="tab-blurb">Small bites and appetizers to wet your appetite.</p>
+      <p class="tab-blurb"><strong> Drinks to cool you down or warm you up</strong></p>
     </div>
 
     <div class="btn-bar">
-      <button class="tab-btn" onclick="openTab('Apps')">Appetizers</button>
-      <button class="tab-btn">Entrees</button>
-      <button class="tab-btn">Desserts</button>
-      <button class="tab-btn">Beverages</button>
+      <button class="tab-btn active" onclick="openTab('Apps')">Appetizers</button>
+      <button class="tab-btn" onclick="openTab('Entree')">Entrees</button>
+      <button class="tab-btn" onclick="openTab('Dessert')">Desserts</button>
+      <button class="tab-btn" onclick="openTab('Bev')">Beverages</button>
     </div>
   </body>
   <script src="./script.js"></script>

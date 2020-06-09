@@ -12,21 +12,54 @@ h1, p, .tab-content, .tab-blurb {
     height: 518px;
 }
 
+h3 {
+    padding-top: 25%;
+}
+
+#Apps, #Entree, #Dessert, #Bev {
+    font-size: 1.2rem;;
+    margin: auto;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
 #Apps {
     background: url(https://images.pexels.com/photos/3645126/pexels-photo-3645126.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: auto;
-    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2), 0px 8px 13px rgba(0, 0, 0, 0.1),
-    0px 18px 23px rgba(0, 0, 0, 0.1);
-    color: black;
+}
+
+#Entree {
+    background: url(https://images.pexels.com/photos/3791089/pexels-photo-3791089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+
+#Dessert {
+    background: url(https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+
+#Bev {
+    background: url(https://images.pexels.com/photos/605408/pexels-photo-605408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
 }
 
 .btn-bar{
     display: flex;
     justify-content: center;
     margin: auto;
+    width: 777px; 
+    
 }
 
 .tab-btn{
